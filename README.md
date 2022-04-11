@@ -1,1 +1,1 @@
-# Predictive-pattern
+# Interpretable CNN model
