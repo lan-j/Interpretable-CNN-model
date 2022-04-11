@@ -37,7 +37,7 @@ def align(data):
     return batch_seq, num, id
 
 
-def to_onehot(labels, n_categories=14, dtype=torch.float32):
+def to_onehot(labels, n_categories=9, dtype=torch.float32):
     batch_size = len(labels)
     one_hot_labels = torch.zeros(size=(batch_size, n_categories), dtype=dtype)
     for i, label in enumerate(labels):
